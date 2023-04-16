@@ -4,34 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8b51b16-7f32-48e4-afb6-7fed19f01abb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job4jtask.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classandobject/Task6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classandobject/Task7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classandobject/Task8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classandobject/Task9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/AddElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/AddIndexElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/CheckerAhdGetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/console/Task15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/console/Task16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/console/Task17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/console/Task18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datatype/Task10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datatype/Task11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datatype/Task14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datatype/Task15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datatype/Task16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/AddElementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/AddIndexElementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/CheckerAhdGetterTest.java" afterDir="false" />
+    <list default="true" id="d8b51b16-7f32-48e4-afb6-7fed19f01abb" name="Changes" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/src/collection/UniqueElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/UniqueElementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,20 +56,7 @@
       <recent name="collection" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AddIndexElementTest">
-    <configuration name="Task16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datatype.Task16" />
-      <module name="job4jtask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datatype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UniqueElementTest">
     <configuration name="AddElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4jtask" />
       <extension name="coverage">
@@ -155,13 +118,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniqueElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="job4jtask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.UniqueElementTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UniqueElementTest" />
         <item itemvalue="JUnit.AddIndexElementTest" />
         <item itemvalue="JUnit.AddIndexElementTest.addNewElementFalse" />
         <item itemvalue="JUnit.AddElementTest" />
         <item itemvalue="JUnit.CheckerAhdGetterTest" />
-        <item itemvalue="Application.Task16" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +152,43 @@
       <option name="presentableId" value="Default" />
       <updated>1681532773977</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1681583642374</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681583642374</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit">
+      <created>1681583684436</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681583684436</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First commit">
+      <created>1681620906019</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681620906019</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
 </project>
