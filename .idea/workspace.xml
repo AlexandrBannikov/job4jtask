@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8b51b16-7f32-48e4-afb6-7fed19f01abb" name="Changes" comment="UniqueElement">
-      <change afterPath="$PROJECT_DIR$/src/collection/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/FactoryTest.java" afterDir="false" />
+    <list default="true" id="d8b51b16-7f32-48e4-afb6-7fed19f01abb" name="Changes" comment="Factory">
+      <change afterPath="$PROJECT_DIR$/src/camelcase/CamelCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/AddAllElementsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/RepositionElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/set/UniqueName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/AddAllElementsListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/RepositionElementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/UniqueNameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,9 +61,9 @@
       <recent name="collection" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FactoryTest">
-    <configuration name="Factory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.Factory" />
+  <component name="RunManager" selected="JUnit.UniqueNameTest.collectUniqueName">
+    <configuration name="AddAllElementsList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.AddAllElementsList" />
       <module name="job4jtask" />
       <extension name="coverage">
         <pattern>
@@ -70,7 +75,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddIndexElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddAllElementsListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4jtask" />
       <extension name="coverage">
         <pattern>
@@ -79,13 +84,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.AddIndexElementTest" />
+      <option name="MAIN_CLASS_NAME" value="test.AddAllElementsListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddIndexElementTest.addNewElementFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RepositionElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4jtask" />
       <extension name="coverage">
         <pattern>
@@ -94,14 +99,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.AddIndexElementTest" />
-      <option name="METHOD_NAME" value="addNewElementFalse" />
+      <option name="MAIN_CLASS_NAME" value="test.RepositionElementTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepositionElementTest.changePosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="job4jtask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RepositionElementTest" />
+      <option name="METHOD_NAME" value="changePosition" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UniqueNameTest.collectUniqueName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4jtask" />
       <extension name="coverage">
         <pattern>
@@ -110,34 +130,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.FactoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UniqueElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="job4jtask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.UniqueElementTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="test.UniqueNameTest" />
+      <option name="METHOD_NAME" value="collectUniqueName" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FactoryTest" />
-        <item itemvalue="Application.Factory" />
-        <item itemvalue="JUnit.UniqueElementTest" />
-        <item itemvalue="JUnit.AddIndexElementTest" />
-        <item itemvalue="JUnit.AddIndexElementTest.addNewElementFalse" />
+        <item itemvalue="JUnit.UniqueNameTest.collectUniqueName" />
+        <item itemvalue="JUnit.AddAllElementsListTest" />
+        <item itemvalue="Application.AddAllElementsList" />
+        <item itemvalue="JUnit.RepositionElementTest" />
+        <item itemvalue="JUnit.RepositionElementTest.changePosition" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681622612044</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Factory">
+      <created>1681623569542</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681623569542</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +208,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="UniqueElement" />
-    <option name="LAST_COMMIT_MESSAGE" value="UniqueElement" />
+    <MESSAGE value="Factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory" />
   </component>
 </project>
