@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8b51b16-7f32-48e4-afb6-7fed19f01abb" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/src/collection/UniqueElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/UniqueElementTest.java" afterDir="false" />
+    <list default="true" id="d8b51b16-7f32-48e4-afb6-7fed19f01abb" name="Changes" comment="UniqueElement">
+      <change afterPath="$PROJECT_DIR$/src/collection/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/FactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,18 +56,16 @@
       <recent name="collection" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UniqueElementTest">
-    <configuration name="AddElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FactoryTest">
+    <configuration name="Factory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.Factory" />
       <module name="job4jtask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.AddElementTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckerAhdGetterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4jtask" />
       <extension name="coverage">
         <pattern>
@@ -112,7 +110,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.CheckerAhdGetterTest" />
+      <option name="MAIN_CLASS_NAME" value="test.FactoryTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FactoryTest" />
+        <item itemvalue="Application.Factory" />
         <item itemvalue="JUnit.UniqueElementTest" />
         <item itemvalue="JUnit.AddIndexElementTest" />
         <item itemvalue="JUnit.AddIndexElementTest.addNewElementFalse" />
-        <item itemvalue="JUnit.AddElementTest" />
-        <item itemvalue="JUnit.CheckerAhdGetterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681620906019</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="UniqueElement">
+      <created>1681622612044</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681622612044</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +194,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="UniqueElement" />
+    <option name="LAST_COMMIT_MESSAGE" value="UniqueElement" />
   </component>
 </project>
